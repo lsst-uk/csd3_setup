@@ -18,8 +18,8 @@ then
         exit 1
 fi
 
-
 tag=v26_0_0
+is_latest=false
 
 date
 # change to lsst_stack dir
@@ -41,4 +41,22 @@ curl -sSL https://raw.githubusercontent.com/lsst/shebangtron/main/shebangtron | 
 # setup lsst_distrib
 # Not strictly necessary here, but a reminder that this needs to be run in every shell session.
 setup lsst_distrib
+
+# if this is the latest version to be installed,
+# change v_latest or w_latest to point to this version
+if [[ $is_latest == "true" ]];
+then
+        cd /rds/project/rds-rPTGgs6He74/lsst_stack
+        if [[ $tag == v* ]];
+        then
+                rm v_latest
+                ln -s $tag v_latest
+        elif [[ $tag == w* ]];
+        then
+                rm w_latest
+                ln -s $tag w_latest
+        fi
+fi
+                
+
 date
