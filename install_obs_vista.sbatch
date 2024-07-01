@@ -21,7 +21,7 @@ fi
 
 # set tag
 # for available tags, `ls $RDS/lsst_stack`
-# if $tag is a weekly build, $_tag should be the version befor that build
+# if $tag is a weekly build, $_tag should be the version before that build
 # note: $tag uses underscores as separators and $_tag uses dots.
 tag=v26_0_0
 _tag=26.0.0
