@@ -1,0 +1,44 @@
+#!/bin/bash -login
+#SBATCH -A IRIS-IP005-CPU
+#SBATCH --job-name="volume"
+#SBATCH --time=06:00:00
+#SBATCH --partition=icelake
+#SBATCH --nodes=1
+#SBATCH --tasks-per-node=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=3420mb
+
+
+# ensure lsstinstall will add a scratch conda environment
+noconda=$(which conda 2>&1|head -n 1|gawk '{print $2 $3}')
+
+if [[ $noconda != noconda ]];
+then
+        echo "Please remove conda from PATH environment variable."
+        exit 1
+fi
+
+
+tag=v26_0_0
+
+date
+# change to lsst_stack dir
+cd /rds/project/rds-rPTGgs6He74/lsst_stack/
+# ensure clean install
+rm -rf $tag
+# download lsstinstall
+curl -OL https://ls.st/lsstinstall
+# make and change to dir for this build
+mkdir $tag
+cd $tag
+# download and install this build
+../lsstinstall -T $tag -p $PWD/conda -P
+# activate the new conda environment
+source loadLSST.sh
+# install lsst_distrib packages
+eups distrib install -t $tag lsst_distrib
+curl -sSL https://raw.githubusercontent.com/lsst/shebangtron/main/shebangtron | python
+# setup lsst_distrib
+# Not strictly necessary here, but a reminder that this needs to be run in every shell session.
+setup lsst_distrib
+date
