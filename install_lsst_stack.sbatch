@@ -1,7 +1,7 @@
 #!/bin/bash -login
 #SBATCH -A IRIS-IP005-CPU
 #SBATCH --job-name="volume"
-#SBATCH --time=06:00:00
+#SBATCH --time=01:00:00
 #SBATCH --partition=icelake
 #SBATCH --nodes=1
 #SBATCH --tasks-per-node=1
