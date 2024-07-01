@@ -21,6 +21,8 @@ cat $HOME/rds/rds-iris-ip005/lsst_env >> $HOME/.bashrc
 exec $SHELL
 ```
 
+## Activate LSST Pipeline `conda` environment
+
 Following this you’ll have environment variables for the shared storage space (`$RDS`) and for the latest versions and weekly builds of the LSST Pipeline (`$v_latest` and `$w_latest`, respectively). Note: this will be the latest version available on CSD3, not necessarily the latest version published by Rubin. Notes for admins to update the latest versions, see [ADMIN.md](ADMIN.md).
 
 To activate the LSST Pipeline, use:
@@ -34,6 +36,24 @@ or
 ```shell
 source $w_latest
 ```
+
+## Setup `lsst_distrib`
+
+With the `conda` environment activated, run the following:
+
+```shell
+setup lsst_distrib
+```
+
+## Additional packages
+
+The installation also includes the LSST:UK `obs_vista` package. To add this to your setup, use:
+
+```shell
+setup obs_vista
+```
+
+## Other LSST Pipeline versions
 
 To see which versions these point to, you can do `ls -l $RDS/lsst_stack`, for example:
 
