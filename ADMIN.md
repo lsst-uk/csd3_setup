@@ -51,4 +51,6 @@ Run the installation via the SLURM scheduler:
 sbatch install_lsst_stack.sbatch
 ```
 
+This should take aroun 20 minutes.
+
 The LSST Pipeline installations can be found under `$RDS/lsst_stack/<tag>`. If `is_latest` was set to `true`, `$RDS/lsst_stack/v_latest` or `$RDS/lsst_stack/w_latest` will link to the tag, depending on whether you installed a version or a weekly build.
