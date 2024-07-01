@@ -51,6 +51,26 @@ Run the installation via the SLURM scheduler:
 sbatch install_lsst_stack.sbatch
 ```
 
-This should take aroun 20 minutes.
+This should take around 20 minutes.
 
 The LSST Pipeline installations can be found under `$RDS/lsst_stack/<tag>`. If `is_latest` was set to `true`, `$RDS/lsst_stack/v_latest` or `$RDS/lsst_stack/w_latest` will link to the tag, depending on whether you installed a version or a weekly build.
+
+## Install additional packages
+
+### Install `obs_vista`
+
+For full instructions on `obs_vista` installation, see [obs_vista](https://github.com/lsst-uk/obs_vista). These instructions have been adapted for the setup on CSD3 and added to [install_obs_vista.sbatch](install_obs_vista.sbatch).
+
+To install, edit the following lines in `install_obs_vista.sbatch`:
+
+```shell
+# set tag
+# for available tags, `ls $RDS/lsst_stack`
+# if $tag is a weekly build, $_tag should be the version before that build
+# note: $tag uses underscores as separators and $_tag uses dots.
+tag=v26_0_0
+_tag=26.0.0
+```
+
+so that `tag` is the LSST Pipeline tag into which you'd like to install `obs_vista` (this can be a version or a weekly build that exists in `$RDS/lsst_stack`) and `_tag` is the version separated by dots (for weekly builds this is the latest version before that build).
+
