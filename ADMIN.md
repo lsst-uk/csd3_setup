@@ -74,3 +74,6 @@ _tag=26.0.0
 
 so that `tag` is the LSST Pipeline tag into which you'd like to install `obs_vista` (this can be a version or a weekly build that exists in `$RDS/lsst_stack`) and `_tag` is the version separated by dots (for weekly builds this is the latest version before that build).
 
+This should run in less than 5 minutes.
+
+
