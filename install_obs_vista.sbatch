@@ -29,7 +29,6 @@ _tag=26.0.0
 # activate conda environment
 source /rds/project/rds-rPTGgs6He74/lsst_stack/$tag/loadLSST.sh
 # setup lsst_distrib
-setup lsst_distrib
 
 # change dir to EUPS packages path
 cd $EUPS_PATH/Linux64
@@ -54,7 +53,12 @@ mv obs_vista ${_tag}-1
 eups declare -t current obs_vista ${_tag}-1
 
 # setup obs_vista
-setup obs_vista
+# instead of setup obs_vista, add obs_vista to lsst_distrib dependency table
+sed -i.bak "/} else {/i \ \ \ setupRequired(obs_vista -j ${_tag}-1)" $EUPS_PATH/Linux64/lsst_distrib/*/ups/lsst_distrib.table
+sed -i.bak "\$i \ \ \ setupRequired(obs_vista ${_tag}-1 [>= ${_tag}-1])" $EUPS_PATH/Linux64/lsst_distrib/*/ups/lsst_distrib.table
+
+# setup lsst_distrib
+setup lsst_distrib
 
 # list packages for log
 eups list
