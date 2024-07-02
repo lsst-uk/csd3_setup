@@ -47,11 +47,7 @@ setup lsst_distrib
 
 ## Additional packages
 
-The installation also includes the LSST:UK `obs_vista` package. To add this to your setup, use:
-
-```shell
-setup obs_vista
-```
+All installations also includes the LSST:UK `obs_vista` package, which is automatically setup by the `setup lsst_distrib` command, above.
 
 ## Other LSST Pipeline versions
 
