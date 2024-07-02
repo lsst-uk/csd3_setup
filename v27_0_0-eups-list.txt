@@ -1,0 +1,96 @@
+afw                   g5a732f18d5+be83d3ecdb    v27_0_0_rc3 v27_0_0 o_latest current setup
+alert_packet          gb80f75460d       w_2024_17 v27_0_0_rc3 w_2024_12 w_2024_18 w_2024_16 v27_0_0 v27_0_0_rc2 o_latest w_2024_13 w_2024_14 v27_0_0_rc1 w_2024_15 current setup
+analysis_drp          gefe92d13dd+2d64eb2edc    v27_0_0_rc3 v27_0_0 o_latest current setup
+analysis_tools        g5892853fa8+09261aadac    v27_0_0_rc3 v27_0_0 o_latest current setup
+ap_association        g0796242eda+65cbbae901    v27_0_0_rc3 v27_0_0 o_latest current setup
+ap_pipe               g759cec1136+11e58f0915    v27_0_0_rc3 v27_0_0 o_latest current setup
+ap_verify             gad424c6ed9+4995c8f127    v27_0_0_rc3 v27_0_0 o_latest current setup
+astro_metadata_translator g5b7d32c56a+9a11dc8c8f        v27_0_0_rc3 v27_0_0 o_latest current setup
+astshim               g50ff169b8f+5929b3527e    v27_0_0_rc3 w_2024_16 v27_0_0 v27_0_0_rc2 o_latest v27_0_0_rc1 w_2024_15 current setup
+atmospec              g20ab879b31+5035dddea8    v27_0_0_rc3 v27_0_0 o_latest current setup
+base                  g52b1c1532d+a6fc98d2e7    v27_0_0_rc3 w_2024_16 v27_0_0 v27_0_0_rc2 o_latest v27_0_0_rc1 w_2024_15 current setup
+cbp                   ga32fcf49c8+469cd937ee    v27_0_0_rc3 v27_0_0 o_latest current setup
+cell_coadds           g4da81e4fa4+2d64eb2edc    v27_0_0_rc3 v27_0_0 o_latest current setup
+coadd_utils           g337abbeb29+469cd937ee    v27_0_0_rc3 v27_0_0 o_latest current setup
+cp_pipe               gb0b17cf87e+2d64eb2edc    v27_0_0_rc3 v27_0_0 o_latest current setup
+cp_verify             gd17cd738e2+09261aadac    v27_0_0_rc3 v27_0_0 o_latest current setup
+cpputils              g9ddcbc5298+d4bad12328    v27_0_0_rc3 w_2024_16 v27_0_0 v27_0_0_rc2 o_latest v27_0_0_rc1 w_2024_15 current setup
+ctrl_bps              g49ff487e58+511191ffe2    v27_0_0_rc3 v27_0_0 o_latest current setup
+ctrl_bps_htcondor     ge6805ddb8d+b30624e447    v27_0_0_rc3 v27_0_0 o_latest current setup
+ctrl_bps_panda        gdfe16402cc+b30624e447    v27_0_0_rc3 v27_0_0 o_latest current setup
+ctrl_bps_parsl        gb82b2b2428+b30624e447    v27_0_0_rc3 v27_0_0 o_latest current setup
+ctrl_execute          g2e9034142b+2632f50aca    v27_0_0_rc3 v27_0_0 o_latest current setup
+ctrl_mpexec           g6725e54719+7d18088329    v27_0_0_rc3 v27_0_0 o_latest current setup
+ctrl_platform_s3df    ge038d2af86+81dbfa73bd    v27_0_0_rc3 v27_0_0 o_latest current setup
+daf_base              gb0e22166c9+25ba2f69a1    v27_0_0_rc3 v27_0_0 o_latest current setup
+daf_butler            gb745877958+0176e2a6b4    v27_0_0_rc3 v27_0_0 o_latest current setup
+daf_relation          g478c952ef3+e67c6346a6    v27_0_0_rc3 v27_0_0 o_latest current setup
+dax_apdb              g295015adf3+81dd352a9d    v27_0_0_rc3 v27_0_0 o_latest current setup
+display_astrowidgets  g2bbee38e9b+469cd937ee    v27_0_0_rc3 v27_0_0 o_latest current setup
+display_ds9           gc28159a63d+469cd937ee    v27_0_0_rc3 v27_0_0 o_latest current setup
+display_firefly       gb6a65358fc+469cd937ee    v27_0_0_rc3 v27_0_0 o_latest current setup
+display_matplotlib    g0265f82a02+469cd937ee    v27_0_0_rc3 v27_0_0 o_latest current setup
+drp_pipe              gfa69e0f95e+cb6a7025ff    v27_0_0_rc3 v27_0_0 o_latest current setup
+drp_tasks             g3b9ebb4159+53a4f68a96    v27_0_0_rc3 v27_0_0 o_latest current setup
+dustmaps_cachedata    gbb0a0c949e+a6fc98d2e7    v27_0_0_rc3 w_2024_16 v27_0_0 v27_0_0_rc2 o_latest v27_0_0_rc1 w_2024_15 current setup
+faro                  g19fef19738+1150963384    v27_0_0_rc3 v27_0_0 o_latest current setup
+felis                 g2c982cf34e+e67c6346a6    v27_0_0_rc3 v27_0_0 o_latest current setup
+fgcm                  g385fd88f61       w_2024_17 v27_0_0_rc3 w_2024_21 w_2024_19 w_2024_18 w_2024_16 v27_0_0 v27_0_0_rc2 o_latest v27_0_0_rc1 w_2024_15 w_2024_20 current setup
+fgcmcal               g487adcacf7+71499e7cba    v27_0_0_rc3 v27_0_0 o_latest current setup
+gbdes                 g73f919205b+ca4f911437    v27_0_0_rc3 w_2024_16 v27_0_0 v27_0_0_rc2 o_latest v27_0_0_rc1 w_2024_15 current setup
+geom                  ga1e77700b3+9c366c4306    v27_0_0_rc3 v27_0_0 o_latest current setup
+ip_diffim             g1470d8bcf6+cbe83ee85a    v27_0_0_rc3 v27_0_0 o_latest current setup
+ip_isr                g02d81e74bb+21ad69e7e1    v27_0_0_rc3 v27_0_0 o_latest current setup
+jointcal              gbb8dafda3b+69d3c0e320    v27_0_0_rc3 v27_0_0 o_latest current setup
+jointcal_cholmod      g81a980c3dd+a6fc98d2e7    v27_0_0_rc3 w_2024_16 v27_0_0 v27_0_0_rc2 o_latest v27_0_0_rc1 w_2024_15 current setup
+kht                   gafcb7142de       w_2023_29 w_2024_17 d_2024_06_07 v26_0_2_rc1 w_2022_36 w_2024_22 w_2023_48 d_2024_06_30 w_latest w_2022_43 w_2023_40 d_2024_06_15 d_2024_06_25 v25_0_3_rc3 w_2022_32 d_2024_06_29 v25_0_0_rc7 w_2023_41 d_2024_06_23 d_2024_06_08 w_2023_04 v27_0_0_rc3 w_2024_21 v25_0_0_rc2 w_2024_03 w_2024_05 w_2022_37 v25_0_0_rc6 w_2024_10 w_2022_40 w_2024_19 w_2024_07 w_2022_39 w_2024_26 v25_0_0 w_2023_51 w_2023_45 v26_0_2 w_2022_38 w_2024_02 w_2023_26 d_2024_06_24 v26_0_1_rc2 d_2024_06_03 w_2023_12 w_2024_12 w_2023_02 d_2024_06_16 w_2023_33 v25_0_3 w_2023_07 w_2024_06 w_2022_53 v25_0_0_rc1 v25_0_1_rc3 w_2024_18 w_2022_30 w_2023_25 w_2024_16 d_latest d_2024_06_19 v25_0_2_rc1 w_2023_06 w_2023_21 w_2024_24 d_2024_06_02 w_2023_47 w_2023_36 w_2023_32 w_2023_24 w_2022_45 w_2023_03 v27_0_0 w_2023_20 w_2024_11 w_2023_50 w_2022_41 w_2022_46 d_2024_06_12 w_2023_16 w_2023_37 v27_0_0_rc2 v25_0_1_rc2 w_2024_25 w_2024_08 w_2023_43 w_2023_01 w_2022_50 w_2022_44 w_2023_28 d_2024_06_26 d_2024_06_11 w_2023_46 w_2024_09 o_latest w_2022_35 w_2023_23 w_2022_47 w_2023_35 v25_0_0_rc3 w_2023_39 w_2022_33 w_2023_05 v25_0_0_rc4 w_2023_34 w_2022_48 d_2024_06_22 w_2023_30 d_2024_06_10 d_2024_06_17 w_2023_08 d_2024_06_21 w_2022_51 w_2024_13 w_2022_42 d_2024_06_05 w_2023_17 v26_0_1_rc1 w_2023_42 v26_0_0 w_2024_04 w_2023_49 w_2023_38 w_2023_44 w_2024_14 v26_0_0_rc2 w_2023_19 w_2023_22 v27_0_0_rc1 w_2024_15 v26_0_1 w_2023_10 d_2024_06_18 w_2022_52 d_2024_06_14 v25_0_3_rc1 d_2024_06_28 v25_0_3_rc2 v25_0_4 v25_0_1_rc4 w_2023_18 v26_0_0_rc1 w_2022_49 w_2023_13 w_2022_31 w_2024_20 w_2023_27 w_2023_11 v25_0_4_rc1 current d_2024_07_01 w_2023_14 w_2023_52 v25_0_1 w_2024_23 d_2024_06_09 w_2023_15 v25_0_0_rc5 v25_0_2 d_2024_06_04 w_2024_01 w_2023_09 w_2022_34 setup
+log                   g2079a07aa2+e67c6346a6    v27_0_0_rc3 v27_0_0 o_latest current setup
+lsst_apps             g97ee31c002+dd298034b9    v27_0_0_rc3 v27_0_0 o_latest current setup
+lsst_bps_plugins      g3a590c521e+ce32461af0    v27_0_0_rc3 v27_0_0 o_latest current setup
+lsst_distrib          g4213664e8e+6f26e23610    current v27_0_0 v27_0_0_rc3 o_latest setup
+lsst_obs              gfb06b55ef1+267e0b9983    v27_0_0_rc3 v27_0_0 o_latest current setup
+meas_algorithms       ge6526c86ff+3a7c1ac5f1    v27_0_0_rc3 v27_0_0 o_latest current setup
+meas_astrom           gf1cff7945b+21ad69e7e1    v27_0_0_rc3 v27_0_0 o_latest current setup
+meas_base             g212a7c68fe+04a9158687    v27_0_0_rc3 v27_0_0 o_latest current setup
+meas_deblender        g99cad8db69+f62e5b0af5    v27_0_0_rc3 v27_0_0 o_latest current setup
+meas_extensions_convolved g42fff21dfb+15393ee4db        v27_0_0_rc3 v27_0_0 o_latest current setup
+meas_extensions_gaap  gaf2e528c11+337041a288    v27_0_0_rc3 v27_0_0 o_latest current setup
+meas_extensions_photometryKron g858d7b2824+21ad69e7e1   v27_0_0_rc3 v27_0_0 o_latest current setup
+meas_extensions_piff  g64a986408d+21ad69e7e1    v27_0_0_rc3 v27_0_0 o_latest current setup
+meas_extensions_psfex g2305ad1205+94392ce272    v27_0_0_rc3 v27_0_0 o_latest current setup
+meas_extensions_scarlet g1850869495+d7bfc87f51  v27_0_0_rc3 v27_0_0 o_latest current setup
+meas_extensions_shapeHSM g46d310ee33+21ad69e7e1         v27_0_0_rc3 v27_0_0 o_latest current setup
+meas_extensions_simpleShape gcf0d15dbbd+72a9f7b576      v27_0_0_rc3 v27_0_0 o_latest current setup
+meas_extensions_trailedSources g3939d97d7f+72a9f7b576   v27_0_0_rc3 v27_0_0 o_latest current setup
+meas_modelfit         g591dd9f2cf+df404f777f    v27_0_0_rc3 v27_0_0 o_latest current setup
+meas_transiNet        g85ff0b98a8+72a9f7b576    v27_0_0_rc3 v27_0_0 o_latest current setup
+obs_base              gd4e434f3a4+6703599d1d    v27_0_0_rc3 v27_0_0 o_latest current setup
+obs_cfht              g7368d4d87c+0737d2dfa5    v27_0_0_rc3 v27_0_0 o_latest current setup
+obs_decam             gc120e1dc64+615ec43309    v27_0_0_rc3 v27_0_0 o_latest current setup
+obs_decam_data        g9eeeb5e174       w_2023_29 w_2024_17 d_2024_06_07 v26_0_2_rc1 w_2024_22 w_2023_48 d_2024_06_30 w_latest w_2023_40 d_2024_06_15 d_2024_06_25 d_2024_06_29 w_2023_41 d_2024_06_23 d_2024_06_08 v27_0_0_rc3 w_2024_21 w_2024_03 w_2024_05 w_2024_10 w_2024_19 w_2024_07 w_2024_26 w_2023_51 w_2023_45 v26_0_2 w_2024_02 d_2024_06_24 v26_0_1_rc2 d_2024_06_03 w_2024_12 d_2024_06_16 w_2023_33 w_2024_06 w_2024_18 w_2024_16 d_latest d_2024_06_19 w_2024_24 d_2024_06_02 w_2023_47 w_2023_36 w_2023_32 v27_0_0 w_2024_11 w_2023_50 d_2024_06_12 w_2023_37 v27_0_0_rc2 w_2024_25 w_2024_08 w_2023_43 w_2023_28 d_2024_06_26 d_2024_06_11 w_2023_46 w_2024_09 o_latest w_2023_35 w_2023_39 w_2023_34 d_2024_06_22 w_2023_30 d_2024_06_10 d_2024_06_17 d_2024_06_21 w_2024_13 d_2024_06_05 v26_0_1_rc1 w_2023_42 v26_0_0 w_2024_04 w_2023_49 w_2023_38 w_2023_44 w_2024_14 v26_0_0_rc2 v27_0_0_rc1 w_2024_15 v26_0_1 d_2024_06_18 d_2024_06_14 d_2024_06_28 v26_0_0_rc1 w_2024_20 current d_2024_07_01 w_2023_52 w_2024_23 d_2024_06_09 d_2024_06_04 w_2024_01 setup
+obs_fiberspectrograph geb5f2e1a85+b9cbfb4f73    v27_0_0_rc3 v27_0_0 o_latest current setup
+obs_lsst              g5c5439fafc+141fc35c6f    v27_0_0_rc3 v27_0_0 o_latest current setup
+obs_lsst_data         ga18efcb860       w_2024_17 v27_0_0_rc3 w_2024_10 w_2024_12 w_2024_16 v27_0_0 w_2024_11 v27_0_0_rc2 w_2024_09 o_latest w_2024_13 w_2024_14 v27_0_0_rc1 w_2024_15 current setup
+obs_rubinGenericCamera g2de8c5dfb3+b9cbfb4f73   v27_0_0_rc3 v27_0_0 o_latest current setup
+obs_subaru            g8a77981927+8cdb41f1ef    v27_0_0_rc3 v27_0_0 o_latest current setup
+obs_subaru_data       g7ff78db354       w_2023_29 w_2024_17 d_2024_06_07 v26_0_2_rc1 w_2024_22 w_2023_48 d_2024_06_30 w_latest w_2023_40 d_2024_06_15 d_2024_06_25 d_2024_06_29 w_2023_41 d_2024_06_23 d_2024_06_08 v27_0_0_rc3 w_2024_21 w_2024_03 w_2024_05 w_2024_10 w_2024_19 w_2024_07 w_2024_26 w_2023_51 w_2023_45 v26_0_2 w_2024_02 d_2024_06_24 v26_0_1_rc2 d_2024_06_03 w_2024_12 d_2024_06_16 w_2023_33 w_2024_06 w_2024_18 w_2024_16 d_latest d_2024_06_19 w_2024_24 d_2024_06_02 w_2023_47 w_2023_36 w_2023_32 v27_0_0 w_2024_11 w_2023_50 d_2024_06_12 w_2023_37 v27_0_0_rc2 w_2024_25 w_2024_08 w_2023_43 w_2023_28 d_2024_06_26 d_2024_06_11 w_2023_46 w_2024_09 o_latest w_2023_35 w_2023_39 w_2023_34 d_2024_06_22 w_2023_30 d_2024_06_10 d_2024_06_17 d_2024_06_21 w_2024_13 d_2024_06_05 v26_0_1_rc1 w_2023_42 v26_0_0 w_2024_04 w_2023_49 w_2023_38 w_2023_44 w_2024_14 v26_0_0_rc2 v27_0_0_rc1 w_2024_15 v26_0_1 d_2024_06_18 d_2024_06_14 d_2024_06_28 v26_0_0_rc1 w_2024_20 current d_2024_07_01 w_2023_52 w_2024_23 d_2024_06_09 d_2024_06_04 w_2024_01 setup
+obs_vista             27.0.0-1          current setup
+pex_config            gfbcc870c63+9a11dc8c8f    v27_0_0_rc3 v27_0_0 o_latest current setup
+pex_exceptions        gdaeeff99f8+a38ce5ea23    v27_0_0_rc3 w_2024_16 v27_0_0 v27_0_0_rc2 o_latest v27_0_0_rc1 w_2024_15 current setup
+pipe_base             g22f4cc2858+0c595b3158    v27_0_0_rc3 v27_0_0 o_latest current setup
+pipe_tasks            gc07e1c2157+a98bf949bb    v27_0_0_rc3 v27_0_0 o_latest current setup
+proxmin               g33b4157f25       v24_1_1_rc1 v24_1_1 w_2023_29 w_2024_17 d_2024_06_07 w_2022_09 v26_0_2_rc1 w_2022_36 w_2024_22 w_2023_48 d_2024_06_30 w_latest w_2022_43 v24_1_5_rc1 w_2023_40 d_2024_06_15 d_2024_06_25 v25_0_3_rc3 w_2022_32 d_2024_06_29 v24_1_2_rc2 v25_0_0_rc7 w_2023_41 d_2024_06_23 v24_1_5 d_2024_06_08 w_2023_04 v24_0_0_rc1 v24_1_2 w_2022_23 v27_0_0_rc3 w_2024_21 v25_0_0_rc2 w_2024_03 w_2024_05 w_2022_37 w_2022_13 w_2022_10 v25_0_0_rc6 w_2024_10 w_2022_40 w_2022_24 w_2024_19 w_2024_07 w_2022_39 w_2024_26 v25_0_0 w_2023_51 w_2023_45 v26_0_2 w_2022_38 w_2024_02 w_2023_26 w_2022_27 d_2024_06_24 v26_0_1_rc2 d_2024_06_03 v24_1_3_rc1 w_2023_12 w_2024_12 v24_1_2_rc1 w_2023_02 d_2024_06_16 w_2023_33 w_2022_12 v25_0_3 w_2023_07 w_2024_06 w_2022_53 v25_0_0_rc1 v25_0_1_rc3 w_2024_18 w_2022_16 w_2022_30 w_2023_25 v24_1_3 w_2024_16 d_latest d_2024_06_19 w_2022_11 v25_0_2_rc1 w_2023_06 w_2023_21 w_2024_24 d_2024_06_02 w_2022_22 w_2023_47 v24_1_0 w_2023_36 w_2023_32 w_2023_24 w_2022_45 w_2023_03 v27_0_0 w_2023_20 w_2024_11 w_2023_50 w_2022_29 w_2022_41 w_2022_46 w_2022_14 d_2024_06_12 w_2023_16 w_2022_18 w_2023_37 v27_0_0_rc2 v25_0_1_rc2 w_2024_25 w_2024_08 w_2023_43 w_2023_01 v24_0_0 w_2022_50 w_2022_44 w_2023_28 d_2024_06_26 w_2022_08 d_2024_06_11 w_2023_46 w_2022_17 w_2022_19 w_2024_09 o_latest w_2022_35 v24_1_4_rc1 v24_0_0_rc2 w_2023_23 w_2022_47 w_2023_35 v25_0_0_rc3 w_2022_15 w_2023_39 w_2022_33 v24_1_0_rc3 w_2023_05 v25_0_0_rc4 w_2023_34 w_2022_25 v24_1_4 w_2022_48 d_2024_06_22 w_2023_30 d_2024_06_10 d_2024_06_17 w_2023_08 d_2024_06_21 w_2022_51 w_2024_13 v24_0_0_rc4 w_2022_42 d_2024_06_05 w_2023_17 v26_0_1_rc1 w_2023_42 v26_0_0 w_2024_04 w_2023_49 w_2023_38 w_2023_44 w_2024_14 w_2022_21 v26_0_0_rc2 v24_1_0_rc2 w_2023_19 w_2023_22 v27_0_0_rc1 w_2024_15 v26_0_1 w_2023_10 d_2024_06_18 w_2022_52 w_2022_28 d_2024_06_14 v25_0_3_rc1 d_2024_06_28 v25_0_3_rc2 v25_0_4 v25_0_1_rc4 w_2023_18 v24_0_0_rc3 v26_0_0_rc1 w_2022_49 w_2022_20 w_2023_13 w_2022_31 w_2024_20 w_2023_27 w_2023_11 v25_0_4_rc1 current d_2024_07_01 w_2023_14 w_2023_52 v25_0_1 w_2024_23 d_2024_06_09 w_2023_15 v25_0_0_rc5 v25_0_2 d_2024_06_04 w_2024_01 v24_1_0_rc1 w_2023_09 w_2022_26 w_2022_34 setup
+psfex                 g7b9623be85+a6fc98d2e7    v27_0_0_rc3 w_2024_16 v27_0_0 v27_0_0_rc2 o_latest v27_0_0_rc1 w_2024_15 current setup
+resources             g205272ebae+e67c6346a6    v27_0_0_rc3 v27_0_0 o_latest current setup
+scarlet               g87a95b57b9+4083830bf8    w_2024_17 d_2024_06_07 w_2024_22 d_2024_06_30 w_latest d_2024_06_15 d_2024_06_25 d_2024_06_29 d_2024_06_23 d_2024_06_08 v27_0_0_rc3 w_2024_21 w_2024_05 w_2024_10 w_2024_19 w_2024_07 w_2024_26 d_2024_06_24 d_2024_06_03 w_2024_12 d_2024_06_16 w_2024_06 w_2024_18 w_2024_16 d_latest d_2024_06_19 w_2024_24 d_2024_06_02 v27_0_0 w_2024_11 d_2024_06_12 v27_0_0_rc2 w_2024_25 w_2024_08 d_2024_06_26 d_2024_06_11 w_2024_09 o_latest d_2024_06_22 d_2024_06_10 d_2024_06_17 d_2024_06_21 w_2024_13 d_2024_06_05 w_2024_04 w_2024_14 v27_0_0_rc1 w_2024_15 d_2024_06_18 d_2024_06_14 d_2024_06_28 w_2024_20 current d_2024_07_01 w_2024_23 d_2024_06_09 d_2024_06_04 setup
+scarlet_lite          gee10cc3b42+a6fc98d2e7    v27_0_0_rc3 w_2024_16 v27_0_0 v27_0_0_rc2 o_latest v27_0_0_rc1 w_2024_15 current setup
+sconsUtils            g581c2fe0b1       v27_0_0_rc3 w_2024_16 v27_0_0 v27_0_0_rc2 o_latest v27_0_0_rc1 w_2024_15 current setup
+sdm_schemas           g68a3f10bb4       v27_0_0_rc3 w_2024_16 v27_0_0 v27_0_0_rc2 o_latest v27_0_0_rc1 current setup
+shapelet              ge79ae78c31+469cd937ee    v27_0_0_rc3 v27_0_0 o_latest current setup
+skymap                ga8c6da7877+71e4819109    v27_0_0_rc3 v27_0_0 o_latest current setup
+source_injection      gd26fd9d4e4+e4d7adf78f    v27_0_0_rc3 v27_0_0 o_latest current setup
+spectractor           g931ce99066+e67c6346a6    v27_0_0_rc3 v27_0_0 o_latest current setup
+sphgeom               g8a8a8dda67+a6fc98d2e7    v27_0_0_rc3 w_2024_16 v27_0_0 v27_0_0_rc2 o_latest v27_0_0_rc1 w_2024_15 current setup
+utils                 g0154d4b521+a6fc98d2e7    v27_0_0_rc3 v27_0_0 o_latest current setup
+verify                gb258240cf5+8c5a4e0a81    v27_0_0_rc3 v27_0_0 o_latest current setup
+verify_metrics        gc16d4156ef+a6fc98d2e7    v27_0_0_rc3 w_2024_16 v27_0_0 v27_0_0_rc2 o_latest v27_0_0_rc1 w_2024_15 current setup
