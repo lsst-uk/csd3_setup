@@ -23,8 +23,9 @@ fi
 # for available tags, `ls $RDS/lsst_stack`
 # if $tag is a weekly build, $_tag should be the version before that build
 # note: $tag uses underscores as separators and $_tag uses dots.
-tag=v26_0_0
-_tag=26.0.0
+tag=w_2024_29
+_tag=27.0.0
+
 
 # activate conda environment
 source /rds/project/rds-rPTGgs6He74/lsst_stack/$tag/loadLSST.sh
@@ -42,6 +43,9 @@ fi
 # make and change to obs_vista dir
 mkdir obs_vista
 cd obs_vista
+
+# Namespace
+echo "Namespace: {tag:$tag, _tag:$_tag, PWD:$PWD, EUPS_PATH:$EUPS_PATH}"
 
 # download obs_vista
 git clone https://github.com/lsst-uk/obs_vista.git

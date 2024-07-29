@@ -20,9 +20,9 @@ fi
 
 # set tag, e.g., v27_0_0 or w_2024_26
 # for available tags, see https://pipelines.lsst.io/install/lsstinstall.html#lsstinstall-other-tags
-tag=v26_0_0
+tag=w_2024_30
 # set true if this is the latest vXX_X_X or w_XXXX_XX tag to be installed on CSD3
-is_latest=false
+is_latest=true
 
 date
 # change to lsst_stack dir
@@ -38,6 +38,10 @@ cd $tag
 ../lsstinstall -T $tag -p $PWD/conda -P
 # activate the new conda environment
 source loadLSST.sh
+
+# Namespace
+echo "Namespace: {tag:$tag, is_latest:$is_latest, PWD:$PWD, EUPS_PATH:$EUPS_PATH}"
+
 # install lsst_distrib packages
 eups distrib install -t $tag lsst_distrib
 curl -sSL https://raw.githubusercontent.com/lsst/shebangtron/main/shebangtron | python
