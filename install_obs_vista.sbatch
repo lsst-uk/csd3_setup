@@ -1,6 +1,6 @@
 #!/bin/bash -login
 #SBATCH -A IRIS-IP005-CPU
-#SBATCH --job-name="volume"
+#SBATCH --job-name="obsvista"
 #SBATCH --time=01:00:00
 #SBATCH --partition=icelake
 #SBATCH --nodes=1
@@ -23,7 +23,7 @@ fi
 # for available tags, `ls $RDS/lsst_stack`
 # if $tag is a weekly build, $_tag should be the version before that build
 # note: $tag uses underscores as separators and $_tag uses dots.
-tag=w_2024_36
+tag=w_2024_39
 _tag=27.0.0
 
 
