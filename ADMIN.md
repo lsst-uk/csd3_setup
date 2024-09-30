@@ -92,5 +92,5 @@ This can be prevented with job dependency, e.g., if the job_id of the LSST Stack
 ```shell
 sbatch install_lsst_stack.sbatch
 # Output: Submitted batch job 61923482
-sbatch -d afterany:61923482 install_obs_vista.sbatch
+sbatch -d afterok:61923482 install_obs_vista.sbatch
 ```
