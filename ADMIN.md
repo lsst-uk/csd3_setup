@@ -76,4 +76,21 @@ so that `tag` is the LSST Pipeline tag into which you'd like to install `obs_vis
 
 This should run in less than 5 minutes.
 
+## Script submission
 
+The `install_lsst_stack.sbatch` and `install_obs_vista.sbatch` scripts can be submitted through sbatch commands:
+
+```shell
+sbatch install_lsst_stack.sbatch
+sbatch install_obs_vista.sbatch
+```
+
+If both scripts are prepared at the same time, the installation of obs-vista may fail as installation of LSST Stack is a prerequisite.
+
+This can be prevented with job dependency, e.g., if the job_id of the LSST Stack installation, here 61923482, is used as a dependency of the obs-vista installation:
+
+```shell
+sbatch install_lsst_stack.sbatch
+# Output: Submitted batch job 61923482
+sbatch -d afterany:61923482 install_obs_vista.sbatch
+```
