@@ -20,7 +20,7 @@ fi
 
 # set tag, e.g., v27_0_0 or w_2024_26
 # for available tags, see https://pipelines.lsst.io/install/lsstinstall.html#lsstinstall-other-tags
-tag=w_2024_39
+tag=w_2024_40
 # set true if this is the latest vXX_X_X or w_XXXX_XX tag to be installed on CSD3
 is_latest=true
 
