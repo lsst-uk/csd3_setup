@@ -23,7 +23,7 @@ fi
 # for available tags, `ls $RDS/lsst_stack`
 # if $tag is a weekly build, $_tag should be the version before that build
 # note: $tag uses underscores as separators and $_tag uses dots.
-tag=w_2024_40
+tag=w_2024_48
 _tag=27.0.0
 
 

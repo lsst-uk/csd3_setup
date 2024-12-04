@@ -20,27 +20,27 @@ fi
 
 # set tag, e.g., v27_0_0 or w_2024_26
 # for available tags, see https://pipelines.lsst.io/install/lsstinstall.html#lsstinstall-other-tags
-tag=w_2024_40
+tag=w_2024_48
 _tag=$( echo $tag | tr _ . )
 
 date
+# Namespace
+echo "Namespace: {tag:$tag, is_latest:$is_latest, PWD:$PWD, EUPS_PATH:$EUPS_PATH}"
 # change to lsst_stack dir
 cd /rds/project/rds-rPTGgs6He74/lsst_stack/
 mkdir ${tag}_pipecheck
 cd ${tag}_pipecheck
 # activate the new conda environment
-source ../${tag}/loadLSST.sh
-
-# Namespace
-echo "Namespace: {tag:$tag, is_latest:$is_latest, PWD:$PWD, EUPS_PATH:$EUPS_PATH}"
-
-# Download pipelines_check
-https://github.com/lsst/pipelines_check/archive/refs/tags/w.2024.40.tar.gz
-curl -L https://github.com/lsst/pipelines_check/archive/refs/tags/${_tag}.tar.gz | tar xvzf -
-cd pipelines_check-${_tag}
-
-# Run tests
-setup -r .
-./bin/run_demo.sh
-
+if source ../${tag}/loadLSST.sh
+then
+	# Download pipelines_check
+	curl -L https://github.com/lsst/pipelines_check/archive/refs/tags/${_tag}.tar.gz | tar xvzf -
+	cd pipelines_check-${_tag}
+	
+	# Run tests
+	setup -r .
+	./bin/run_demo.sh
+else
+	echo "no ${tag} lsst_stack installed"
+fi
 date
