@@ -2,11 +2,11 @@
 #SBATCH -A IRIS-IP005-CPU
 #SBATCH --job-name="lsststack"
 #SBATCH --time=06:00:00
-#SBATCH --partition=icelake
+#SBATCH --partition=cclake
 #SBATCH --nodes=1
 #SBATCH --tasks-per-node=1
-#SBATCH --cpus-per-task=1
-#SBATCH --mem=3420mb
+#SBATCH --cpus-per-task=3
+#SBATCH --mem=10230mb
 
 
 # ensure lsstinstall will add a scratch conda environment
