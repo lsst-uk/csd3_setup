@@ -28,8 +28,9 @@ date
 echo "Namespace: {tag:$tag, is_latest:$is_latest, PWD:$PWD, EUPS_PATH:$EUPS_PATH}"
 # change to lsst_stack dir
 cd /rds/project/rds-rPTGgs6He74/lsst_stack/
-mkdir ${tag}_pipecheck
-cd ${tag}_pipecheck
+pipecheck_folder=${tag}_pipecheck
+mkdir $pipecheck_folder
+cd $pipecheck_folder
 # activate the new conda environment
 if source ../${tag}/loadLSST.sh
 then
@@ -40,6 +41,10 @@ then
 	# Run tests
 	setup -r .
 	./bin/run_demo.sh > ../../${tag}_pipecheck.log 2> ../../${tag}_pipecheck.err
+
+	# Remove pipecheck
+	cd ../..
+	rm -rvf $pipecheck_folder
 else
 	echo "no ${tag} lsst_stack installed"
 fi
