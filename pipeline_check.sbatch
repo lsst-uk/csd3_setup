@@ -20,7 +20,7 @@ fi
 
 # set tag, e.g., v27_0_0 or w_2024_26
 # for available tags, see https://pipelines.lsst.io/install/lsstinstall.html#lsstinstall-other-tags
-tag=w_2024_48
+tag=v28_0_0_rc2
 _tag=$( echo $tag | tr _ . )
 
 date
@@ -39,7 +39,7 @@ then
 	
 	# Run tests
 	setup -r .
-	./bin/run_demo.sh
+	./bin/run_demo.sh > ../../${tag}_pipecheck.log 2> ../../${tag}_pipecheck.err
 else
 	echo "no ${tag} lsst_stack installed"
 fi
