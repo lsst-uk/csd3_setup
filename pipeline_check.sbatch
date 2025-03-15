@@ -21,7 +21,8 @@ fi
 # set tag, e.g., v27_0_0 or w_2024_26
 # for available tags, see https://pipelines.lsst.io/install/lsstinstall.html#lsstinstall-other-tags
 tag=v28_0_0_rc2
-_tag=$( echo $tag | tr _ . )
+vtag=$( echo $tag | tr -d v )
+_tag=$( echo $vtag | tr _ . )
 
 date
 # Namespace
