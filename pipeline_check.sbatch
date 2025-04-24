@@ -18,11 +18,11 @@ then
         exit 1
 fi
 
-# set tag, e.g., v27_0_0 or w_2024_26
+# set tag, e.g., v1_0_0 or w_1971_1
 # for available tags, see https://pipelines.lsst.io/install/lsstinstall.html#lsstinstall-other-tags
-tag=v28_0_0_rc2
-vtag=$( echo $tag | tr -d v )
-_tag=$( echo $vtag | tr _ . )
+tag=w_2025_19
+# pipelines_check tags change _ to . and in versions drop the v, see https://github.com/lsst/pipelines_check/tags
+_tag=$( echo ${tag#v*} | tr _ . )
 
 date
 # Namespace
