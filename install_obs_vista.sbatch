@@ -23,8 +23,8 @@ fi
 # for available tags, `ls $RDS/lsst_stack`
 # if $tag is a weekly build, $_tag should be the version before that build
 # note: $tag uses underscores as separators and $_tag uses dots.
-tag=w_2024_49
-_tag=28.0.0
+tag=w_2025_13
+_tag=28.0.2
 
 
 # activate conda environment

@@ -18,11 +18,17 @@ then
         exit 1
 fi
 
-# set tag, e.g., v27_0_0 or w_2024_26
+# set tag, e.g., THETAG or w_2024_26
 # for available tags, see https://pipelines.lsst.io/install/lsstinstall.html#lsstinstall-other-tags
-tag=w_2024_48
+tag=v28_0_2
 # set true if this is the latest vXX_X_X or w_XXXX_XX tag to be installed on CSD3
-is_latest=true
+is_latest=false
+if [[ $is_latest == "true" ]];
+then
+	flag=T
+else
+	flag=X
+fi
 
 date
 # change to lsst_stack dir
@@ -35,7 +41,7 @@ curl -OL https://ls.st/lsstinstall
 mkdir $tag
 cd $tag
 # download and install this build
-../lsstinstall -T $tag -p $PWD/conda -P
+../lsstinstall -${flag} $tag -p $PWD/conda -P
 # activate the new conda environment
 source loadLSST.sh
 
